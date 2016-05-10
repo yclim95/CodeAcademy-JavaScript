@@ -23,3 +23,4 @@ JavaScript is one of the 3 languages all web developers must learn:
 ## Lessons 
 1. [Intro to JavaScript](https://github.com/yclim95/CodeAcademy-JavaScript/tree/master/Lesson1_introduction_to_javascript)
 2. [Functions](https://github.com/yclim95/CodeAcademy-JavaScript/tree/master/Lesson2_functions)
+3. [Loop: For](https://github.com/yclim95/CodeAcademy-JavaScript/tree/master/Lesson3_for_loop)
