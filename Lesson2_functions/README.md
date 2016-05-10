@@ -92,3 +92,49 @@ The computer might understand your code. But, it will be tidier and easier if we
 **2. Do I need to put a semi-colon right at the end of the each line of the code in the reusable block & at the end of the entire function?** 
 
 YES. At the end of each line of code (within the { }) and after the entire function (after the { }), please put a semi-colon. The semi-colon acts like a period in a sentence. It helps the computer know where there are stopping points in the code.
+
+## Function and Return
+### 1. Don't Repeat Yourself (D.R.Y) Principle 
+The D.R.Y. principle is really important in programming. No repeating!
+
+Any time you find yourself typing the same thing, but modifying only one small part, you can probably use a function.
+
+The 'small part' that you find yourself modifying will be the parameter. And the part that you keep repeating will be the code in the reusable block - the code inside `{ }`.
+
+### 2. Return Keyword
+Nice job! Now, when we call a function, we don't always want to just print stuff. Sometimes, we just want it to return a value. We can then use that value (ie. the output from the function) in other code. Let's learn about the return keyword, then we'll see how to use functions with an if / else statement in the next exercise!
+
+The return keyword simply gives the programmer back the value that comes out of the function. So the function runs, and when the return keyword is used, the function will immediately stop running and `return` the value.
+
+EG.
+```javascript
+// Parameter is a number, and we do math with that parameter
+var timesTwo = function(number) {
+    return number * 2;
+};
+
+// Call timesTwo here!
+var newNumber = timesTwo(5);
+console.log(newNumber);
+```
+
+### 2. Function & RETURN & IF-ELSE 
+
+When we call a function, its return value is just the result from running the function. That value can then be used just like any other value in JavaScript!
+
+Look at the if statement starting on line "//Here". The if statement is checking whether the result of calling the function named quarter is divisible by 3.
+
+EG.
+```javascript
+// Define quarter here.
+var quarter=function(number){
+  return number / 4;  
+};
+
+
+if (quarter(24) % 3 === 0 ) { //Here
+  console.log("The statement is true");
+} else {
+  console.log("The statement is false");
+}
+```
