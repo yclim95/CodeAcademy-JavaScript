@@ -33,3 +33,26 @@ for(var i=0; i<languages.length; i++){
 
 ## More on Array 
 ### 1. Heterogeneous Arrays
+Heterogeneous - Mixture of Arrays
+
+Examples: 
+```javascript
+var pronouns = ["I", "you", "we"];
+var numbers = [1, 2, 3];
+```
+
+### 2. Arrays of Arrays 
+You can make a two-dimensional array by nesting arrays one layer deep, like so:
+
+```javascript
+var twoDimensional = [[1, 1], [1, 1]];
+
+```
+
+This array is two-dimensional because it has two rows that each contain two items. If you were to put a new line between the two rows, you could log a 2D object—a square—to the console, like so:
+
+| "0"   | "1"   | 
+| ----  |:-----:| 
+| 1     |   1   |
+| ----  |:-----:| 
+| 1     |   1   |
