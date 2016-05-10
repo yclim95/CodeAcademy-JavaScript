@@ -25,3 +25,4 @@ JavaScript is one of the 3 languages all web developers must learn:
 2. [Functions](https://github.com/yclim95/CodeAcademy-JavaScript/tree/master/Lesson2_functions)
 3. [Loop: For](https://github.com/yclim95/CodeAcademy-JavaScript/tree/master/Lesson3_for_loop)
 4. [Loop: While & Do-While](https://github.com/yclim95/CodeAcademy-JavaScript/tree/master/Lesson4_while_loop)
+5. [Control Flow](https://github.com/yclim95/CodeAcademy-JavaScript/tree/master/Lesson5_control_flow)
