@@ -90,3 +90,99 @@ List of comparison operators :
 ```javascript
 console.log(15 > 4); // 15 > 4 evaluates to true, so true is printed.
 ```
+
+### 2. If statement
+
+Say we want to write a program that asks whether your name is longer than 7 letters. If the answer is yes, we can respond with "You have a long name!" We can do this with an `if statement`: 
+
+```javascript
+if( "myName".length >= 7 ) {
+    console.log("You have a long name!");
+}
+```
+
+An `if` statement is made up of the `if` keyword, a condition like we've seen before, and a pair of curly braces `{ }`. If the answer to the condition is yes, the code inside the curly braces will run.
+
+### 3. If-Else statement 
+
+In addition to doing something when the condition is true, we can do something else if the condition is `false`. For example, if your name is shorter than 7 letters, we can respond with "You have a short name!" We can do this using an `if / else` statement:
+
+```javascript
+if( "myName".length >= 7 ) {
+    console.log("You have a long name!");
+}
+else {
+    console.log("You have a short name!");  
+}
+```
+In conventional way, just like how we communicate in : "ENGLISH" langauge. 
+
+```javascript
+if(//this is correct){
+	console.log("Do the right thing");
+}else{
+	console.log("Do the wrong thing");
+}
+```
+
+
+## Mid-Lesson Breather
+Just a recap Here : 
+
+1. Confirm and prompt
+
+We can make pop-up boxes appear! 
+`confirm("I am ok");`
+`prompt("Are you ok?");`
+
+2. Data types
+
+a. numbers (e.g. `4.3`, `134`)
+
+b. strings (e.g. `"dogs go woof!"`, `"JavaScript expert"`)
+
+c. booleans (e.g. `false`, `5 > 4`)
+
+3. Conditionals
+
+If the first condition is met, execute the first code block. `if` it is not met, execute the code in the `else` block. 
+
+Example of past recaps: 
+
+```javascript
+if (12 / 4 === "Ari".length) {
+    confirm("Will this run the first block?");
+} else {
+    confirm("Or the second block?");
+}
+```
+
+### 1. Maths 
+Just like we learn maths in school. The operator has orders:  
+
+Code:
+
+1. `( )`: control order of operations
+2. `*` and `/`: multiplication and division
+3. `-` and `+`: subtraction and addition
+
+Examples:
+
+1. `100/10` evaluates to 10
+2. `"Jane".length + 5` evaluates to 9
+3. `5*(3+1)` evaluates to 20
+
+```javascript
+ if("Jon".length * 2 / (2+1) === 2)
+{
+    console.log("The answer makes sense!");
+} 
+else 
+{
+    console.log("bla");
+}
+```
+Output:
+```
+ The answer makes sense!
+```
