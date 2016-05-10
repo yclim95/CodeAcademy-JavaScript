@@ -183,3 +183,46 @@ Output:
 ```
  The answer makes sense!
 ```
+
+### 1. Modulo (%)
+Like in maths, Modulo is the **remainder** of a division.  
+
+Take a look at a examples : 
+
+1. `17 % 5` evaluates to 2
+
+2. `13 % 7` evaluates to 6
+
+You can use % for this occasion like finding even or odds numbers. 
+
+```javascript
+if(2%2===0 ) {
+    console.log("The first number is even");
+} else {
+    console.log("The first number is odd");
+}
+```
+
+### 2. Substrings 
+Sometimes you would like not to display the whole strings just for like preview. Example Gmail inbox. 
+
+```javascript
+"some word".substring(x, y);
+```
+
+where `x` is where you start chopping and `y` is where you finish chopping the original string.
+
+The number part is a little strange. To select for the "he" in "hello", you would write this:
+
+```javascript
+"hello". substring(0, 2);
+```
+Each character in a string is numbered starting from 0, like this:
+
+| "h" | "e" | "l"  | "l"  | "o"  |
+| ----|:---:| :---:| :---:|-----:|
+| 0   | 1   |  2   |  3   |  4   |
+
+The letter `h`is in position `0`, the letter `e` is in position `1`, and so on.
+
+Therefore if you start at position `0`, and slice right up till position `2`, you are left with just `he`
