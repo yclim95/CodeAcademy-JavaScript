@@ -147,7 +147,7 @@ myObj["name"] = "Charlie";
 myObj.name = "Charlie";
 ```
 
-** 2 Literal Syntax**
+**2 Literal Syntax**
 
 ```javascript
 var myObj = {
@@ -165,7 +165,7 @@ myObj['key2'] = value;
 
 ```
 
-** Object Constructor **
+**Object Constructor**
 
 ```javascript
 var myObj = new Object();
