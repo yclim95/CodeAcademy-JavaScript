@@ -29,5 +29,7 @@ var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
 for(var i=0; i<languages.length; i++){
  console.log(languages[i]);   
 }
-
 ```
+
+## More on Array 
+### 1. Heterogeneous Arrays
