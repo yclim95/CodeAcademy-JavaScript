@@ -1,4 +1,4 @@
-Lesson4 Loop : While
+#Lesson4 Loop : While
 Currently You know what is for loops. Just to remind, here is the syntax for for loop :
 
 ```javascript
