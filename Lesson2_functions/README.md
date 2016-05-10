@@ -85,9 +85,10 @@ To use the function, we **call** the function by just typing the function's name
 
 ### Questions on the sytax of Functions 
 
-** 1. Do I need to organized our code?** 
+**1. Do I need to organized our code?** 
+
 The computer might understand your code. But, it will be tidier and easier if we organize our code as everyone is able to understand the code easier especially if you are working in a team. 
 
-** 2. Do I need to put a semi-colon right at the end of the each line of the code in the reusable block & at the end of the entire function? 
+**2. Do I need to put a semi-colon right at the end of the each line of the code in the reusable block & at the end of the entire function?** 
 
 YES. At the end of each line of code (within the { }) and after the entire function (after the { }), please put a semi-colon. The semi-colon acts like a period in a sentence. It helps the computer know where there are stopping points in the code.

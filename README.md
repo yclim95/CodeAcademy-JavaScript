@@ -18,4 +18,7 @@ JavaScript is one of the 3 languages all web developers must learn:
 
 3. Access information on the Internet (e.g. find out the top trending words on Twitter by topic)
 
-4.Organize and present data (e.g. automate spreadsheet work; data visualization)
+
+## Lessons 
+1. [Intro to JavaScript](https://github.com/yclim95/CodeAcademy-JavaScript/tree/master/Lesson1_introduction_to_javascript)
+2. [Functions](https://github.com/yclim95/CodeAcademy-JavaScript/tree/master/Lesson2_functions)
