@@ -78,7 +78,8 @@ For example, comparing two numbers returns a true or false result:
 
 ## Dive-in a little (Decision Making)
 ### 1. Comparison Operator 
-List of comparison operators : 
+List of comparison operators :
+
 1. `>` Greater than
 2. `<` Less than
 3. `<=` Less than or equal to
