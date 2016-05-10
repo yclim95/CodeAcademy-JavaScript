@@ -122,7 +122,7 @@ console.log(newNumber);
 
 When we call a function, its return value is just the result from running the function. That value can then be used just like any other value in JavaScript!
 
-Look at the if statement starting on line "//Here". The if statement is checking whether the result of calling the function named quarter is divisible by 3.
+Look at the if statement starting on line `//Here`. The if statement is checking whether the result of calling the function named quarter is divisible by 3.
 
 EG.
 ```javascript
@@ -137,4 +137,102 @@ if (quarter(24) % 3 === 0 ) { //Here
 } else {
   console.log("The statement is false");
 }
+```
+
+## Function and Varibles
+### 1. Functions with  2 Parameters 
+So far we've only looked at functions with one parameter. But often it is useful to write functions with more than one parameter. For example, we can have the following function:
+
+```javascript
+var areaBox = function(length, width) {
+    return length * width;
+};
+```
+
+With more than one parameter, we can create more useful functions
+
+To call a function with more than one parameter, just enter a value for each parameter in the parentheses. For example, `areaBox(3,9)`; would return the area of a box with a length of 3 and a width of 9.
+
+### 2. Global Vs Local Variables 
+Let's talk about an important concept: **scope**. Scope can be global or local.
+
+Variables defined **outside** a function are accessible anywhere once they have been declared. They are called **global variables** and their scope is **global**.
+
+For example:
+
+```javascript
+var globalVar = "hello";
+
+var foo = function() {
+    console.log(globalVar);  // prints "hello"
+}
+```
+
+The variable `globalVar` can be accessed anywhere, even inside the function `foo`.
+
+Variables defined **inside** a function are **local variables**. They cannot be accessed outside of that function.
+
+For example:
+
+```javascript
+var bar = function() {
+    var localVar = "howdy";
+}
+
+console.log(localVar);  // error
+```
+
+The variable `localVar` only exists inside the function `bar`. Trying to print `localVar` outside the function gives a error.
+
+Check out the code in the editor. Until now you've been using the `var` keyword without really understanding why. The `var` keyword creates a new variable **in the current scope**. That means if var is used outside a function, that variable has a global scope. If `var` is used inside a function, that variable has a local scope.
+
+On line 4 we have not used the `var` keyword, so when we log `my_number` to the console outside of the function, it will be 14.
+
+Example : 
+
+For example:
+
+```javascript
+var my_number = 7; //this has global scope
+
+var timesTwo = function(number) {
+   var my_number = number * 2;  //Line 4
+    console.log("Inside the function my_number is: ");
+    console.log(my_number);
+}; 
+
+timesTwo(7);  //Output: 14
+
+console.log("Outside the function my_number is: ")
+console.log(my_number); //Output: 7
+```
+
+
+### 3. Functions Recap
+EG. 
+```javascript
+var nameString = function ( name) {
+	return "Hi, I am" + " " + name;
+	
+};
+
+console.log(nameString("Bla"));
+```
+
+```javascript
+// Write your function below. 
+// Don't forget to call your function!
+var sleepCheck=function(numHours){
+  
+  if(numHours>=8){
+   return "You're getting plenty of sleep! Maybe even too much!"; 
+  }
+  else{
+       return "Get some more shut eye!";
+  }
+};
+
+sleepCheck(10);
+sleepCheck(5);
+sleepCheck(8);
 ```
