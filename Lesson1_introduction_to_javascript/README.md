@@ -135,6 +135,7 @@ We can make pop-up boxes appear!
 `prompt("Are you ok?");`
 
 **2. Data types**
+
 a. numbers (e.g. `4.3`, `134`)
 
 b. strings (e.g. `"dogs go woof!"`, `"JavaScript expert"`)
@@ -226,3 +227,38 @@ Each character in a string is numbered starting from 0, like this:
 The letter `h`is in position `0`, the letter `e` is in position `1`, and so on.
 
 Therefore if you start at position `0`, and slice right up till position `2`, you are left with just `he`
+
+## Variables 
+
+To do more complex coding, we need a way to 'save' the values from our coding. We do this by defining a variable with a specific, case-sensitive name. Once you create (or **declare**) a variable as having a particular name, you can then call up that value by typing the variable name.
+
+**Code**:
+
+`var varName = data;`
+
+**Example**:
+
+a. `var myName = "Leng";`
+b. `var myAge = 30;`
+c. `var isOdd = true;`
+
+## Reviews 
+
+### 1. Data types
+
+1. strings (e.g. `"dogs go woof!"`)
+2. numbers (e.g. `4`, `10`)
+3. booleans (e.g. `false`, `5 > 4`)
+4. Variables
+
+We store data values in variables. We can bring back the values of these variables by typing the variable name.
+
+### 2. Manipulating numbers & strings
+
+1. comparisons (e.g. `>`, `<=`)
+2. modulo (e.g. `%`)
+3. string length (e.g. `"Emily".length;`)
+4. substrings (e.g. `"hi".substring(0, 1);`)
+
+### 3. console.log( ) 
+Prints into the console whatever we put in the parentheses.
