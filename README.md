@@ -4,6 +4,7 @@ Javacscript is a client-side programming language alongside with 2 others which 
 
 ## Why Study JavaScript ? 
 JavaScript is one of the 3 languages all web developers must learn:
+
 1. **HTML** to define the content of web pages
 
 2. **CSS** to specify the layout of web pages
