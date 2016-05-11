@@ -135,3 +135,14 @@ for (var i = 0; i < cities.length; i++) {
 2. Put semi-colons( `;` ) between each bit of the for loop.
 
 3. Beware of infinite loops!
+
+
+## Add-Ons 
+### Searching text for your name 
+In this project, you'll be writing a short program that checks a block of text for your name.
+
+Specifically, it will check the text for the first letter of your name, then push (add) the number of characters equal to your name's length to an array. By inspecting the array, you'll be able to see `if` your name was mentioned!
+
+Try to get a hang of **loops**, **arrays**`, and `if` statements.
+
+[Sample Code Here]()
