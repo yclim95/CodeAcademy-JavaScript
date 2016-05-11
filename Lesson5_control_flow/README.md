@@ -244,4 +244,4 @@ In this lesson you:
 ### Building mini adventure game 
 Build using whatever you have learned until now. Try to utilize control structure. 
 
-[Sample code here]()
+[Sample code here](https://github.com/yclim95/CodeAcademy-JavaScript/blob/master/Lesson5_control_flow/script.js)

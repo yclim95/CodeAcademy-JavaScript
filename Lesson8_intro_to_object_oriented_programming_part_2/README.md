@@ -525,4 +525,4 @@ for(var x in myStudentReport) {
 ### Building Mini Project 
 Utilize what you have learn in this lesson to build an cash register. 
 
-[Sample Code Here]()
+[Sample Code Here](https://github.com/yclim95/CodeAcademy-JavaScript/blob/master/Lesson8_intro_to_object_oriented_programming_part_2/script.js)

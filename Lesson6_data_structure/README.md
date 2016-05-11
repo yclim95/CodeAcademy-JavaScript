@@ -212,4 +212,4 @@ var myObject = {
 ### Build Mini Project
 Build a mini contact list using what you have learned earlier on. Try to utilize the **data structure** object you have learned in the current lesson. 
 
-[Sample Code Here]()
+[Sample Code Here](https://github.com/yclim95/CodeAcademy-JavaScript/blob/master/Lesson6_data_structure/script.js)

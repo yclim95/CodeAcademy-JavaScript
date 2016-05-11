@@ -474,4 +474,4 @@ Here, we have included a `Circle` object, with a `radius` property representing 
 ### Building Mini Project 
 Utilize what you have learn in this lesson to build an address book. 
 
-[Sample Code Here]()
+[Sample Code Here](https://github.com/yclim95/CodeAcademy-JavaScript/blob/master/Lesson7_intro_to_object_oriented_programming_part_1/script.js)
