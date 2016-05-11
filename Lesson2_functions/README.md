@@ -236,3 +236,18 @@ sleepCheck(10);
 sleepCheck(5);
 sleepCheck(8);
 ```
+
+## Add Ons : More 
+
+Rock paper scissors is a classic 2 player game.Each player chooses either rock, paper or scissors. The possible outcomes:
+
+1. Rock destroys scissors.
+2. Scissors cut paper.
+3. Paper covers rock.
+
+Our code will break the game into 3 phases:
+1. User makes a choice
+2. Computer makes a choice
+3. A compare function will determine who wins
+
+[Sample Code Here]()

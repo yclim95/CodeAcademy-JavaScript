@@ -12,6 +12,7 @@ JavaScript is one of the 3 languages all web developers must learn:
 3. **JavaScript** to program the behavior of web pages
 
 ## What can we used JavaScript for ? 
+
 1. Make websites respond to user interaction
 
 2. Build apps and games (e.g. blackjack)
