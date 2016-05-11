@@ -28,3 +28,4 @@ JavaScript is one of the 3 languages all web developers must learn:
 5. [Control Flow](https://github.com/yclim95/CodeAcademy-JavaScript/tree/master/Lesson5_control_flow)
 6. [Data Structure](https://github.com/yclim95/CodeAcademy-JavaScript/tree/master/Lesson6_data_structure)
 7. [Intro to Object Oriented Programming(OOP) Part 1](https://github.com/yclim95/CodeAcademy-JavaScript/tree/master/Lesson7_intro_to_object_oriented_programming_part_1)
+7. [Intro to Object Oriented Programming(OOP) Part 2](https://github.com/yclim95/CodeAcademy-JavaScript/tree/master/Lesson8_intro_to_object_oriented_programming_part_2)
