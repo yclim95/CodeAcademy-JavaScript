@@ -469,3 +469,9 @@ function Circle (radius) {
 
 Here, we have included a `Circle` object, with a `radius` property representing the circle's radius. We have implemented an area function which calculates the circle's `area`. Notice we have used `Math.PI` to get the π value.
 
+
+## Add-Ons 
+### Building Mini Project 
+Utilize what you have learn in this lesson to build an address book. 
+
+[Sample Code Here]()

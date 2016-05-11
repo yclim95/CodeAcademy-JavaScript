@@ -143,6 +143,6 @@ In this project, you'll be writing a short program that checks a block of text f
 
 Specifically, it will check the text for the first letter of your name, then push (add) the number of characters equal to your name's length to an array. By inspecting the array, you'll be able to see `if` your name was mentioned!
 
-Try to get a hang of **loops**, **arrays**`, and `if` statements.
+Try to get a hang of **loops**, **arrays**, and `if` statements.
 
-[Sample Code Here]()
+[Sample Code Here](https://github.com/yclim95/CodeAcademy-JavaScript/blob/master/Lesson3_for_loop/script.js)

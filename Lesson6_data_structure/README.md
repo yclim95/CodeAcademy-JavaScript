@@ -207,3 +207,9 @@ var myObject = {
   interests :myInterest
 };
 ```
+
+## Add-Ons
+### Build Mini Project
+Build a mini contact list using what you have learned earlier on. Try to utilize the **data structure** object you have learned in the current lesson. 
+
+[Sample Code Here]()

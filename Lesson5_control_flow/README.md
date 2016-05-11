@@ -238,3 +238,10 @@ In this lesson you:
 2. Learned about the switch statement
 
 3. Learned about the logical operators **and** (`&&`), **or** (`||`), and **not** (`!`)
+
+
+## Add-Ons 
+### Building mini adventure game 
+Build using whatever you have learned until now. Try to utilize control structure. 
+
+[Sample code here]()

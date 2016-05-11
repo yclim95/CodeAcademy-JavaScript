@@ -188,3 +188,12 @@ do{
     j++;
 }while(j>3);
 ```
+
+## Add-Ons 
+### 1. Building mini project using while loop
+
+Now that you know how to use while loops, we'll combine them with some other control flow statements (like if/else) to create a dragon slaying mini game.
+
+In this game, you’ll battle a dragon. It will take 4 hits to slay the dragon, and if you miss even one hit, the dragon will defeat you!
+
+[Sample code here]()

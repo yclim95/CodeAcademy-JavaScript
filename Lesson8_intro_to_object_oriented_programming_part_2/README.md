@@ -520,3 +520,9 @@ for(var x in myStudentReport) {
     }
 }
 ```
+
+## Add-Ons 
+### Building Mini Project 
+Utilize what you have learn in this lesson to build an cash register. 
+
+[Sample Code Here]()
