@@ -1,4 +1,4 @@
-#Lesson7 Object Oriented Programming(OOP)
+#Lesson7 Object Oriented Programming(OOP) Part 1
 ## Intro to OOP
 
 We have discussed four data types: numbers, strings, booleans and arrays.
