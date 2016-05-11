@@ -246,8 +246,9 @@ Rock paper scissors is a classic 2 player game.Each player chooses either rock, 
 3. Paper covers rock.
 
 Our code will break the game into 3 phases:
-1. User makes a choice
-2. Computer makes a choice
-3. A compare function will determine who wins
 
-[Sample Code Here]()
+1. User makes a choice.
+2. Computer makes a choice.
+3. A compare function will determine who wins.
+
+[Sample Code Here](https://github.com/yclim95/CodeAcademy-JavaScript/blob/master/Lesson2_functions/script.js)
